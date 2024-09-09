@@ -1,0 +1,118 @@
+nav{
+    z-index: 10;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    top: 0;
+}
+ .logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000f38;
+}
+.nav ul{
+    column-gap: 20px;
+}
+.nav{
+    column-gap: 50px;
+}
+
+.nav  a{
+    color:#000f38;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.nav .btns a{
+    background-color:#000f38;
+    border-radius: 15px;
+    color: #fff;
+    transition: all .5s;
+    padding: 10px 35px;
+}
+.nav .btns a:hover{
+    color: #fff;
+    transform: scale(1.01);
+}
+
+.darkenNav{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px gray;
+    transition: all .7s;
+}
+
+.ham{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: none !important;
+}
+
+
+@media  (max-width  : 767px) {
+   nav{
+    padding-left: 5% ;
+    padding-right: 5%;
+   }
+   .nav .btns a{
+    padding: 7px 30px;
+}
+    
+}
+
+@media  (max-width  : 663px) {
+    nav{
+     padding-left: 3% ;
+     padding-right: 3%;
+    }
+    .nav .btns a{
+        padding: 5px 20px;
+    }
+     
+ }
+
+ @media  (max-width  : 634px) {
+    .nav ul{
+        column-gap: 10px;
+    }
+    .nav{
+        column-gap: 30px;
+    }
+
+ }
+
+ @media  (max-width  : 575px) {
+   .nav {
+       position: fixed;
+       top: 0;
+       right: 0px;
+       bottom: 0;
+       background-color:#fff;
+       width: 200px;
+       justify-content: center;
+       transition: all .6s;
+   }
+   .nav ul{
+    flex-direction: column ;
+    row-gap: 10px;
+    padding: 0;
+    width: 100%;
+   }
+   .nav ul li{
+       text-align: center;
+       font-size: 30px;
+   }
+   .nav ul li a{    
+       font-weight: 600;
+   }
+   .ham{
+       display: block !important;
+   }
+   .nav .btns a{
+    padding: 10px 40px;
+   }
+   .showMenu{
+    right: -200px;
+   }
+ }

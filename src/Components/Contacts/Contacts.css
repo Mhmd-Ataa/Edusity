@@ -1,0 +1,65 @@
+.contacts .subTitle{
+    column-gap: 20px;
+}
+.contacts .subTitle i{
+    font-size: 35px;
+}
+.contacts .subTitle h3{
+font-weight: 700 ;
+}
+.contacts .subTitle p{
+    font-weight: 400 ;
+    color: rgba(0, 0, 0, 0.489);
+}
+.contacts ul li{
+    font-size: 12px;
+}
+.contacts ul li i{
+    font-size: 20px;
+    color:  #000f38;
+}
+
+.box input , textarea{
+    outline: none;
+    border: 0;
+    background:#EBECFE;
+    padding: 13px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.box label{
+    color:  #000f38;
+    font-size: 15px;
+    font-weight: 600;
+}
+input::placeholder{
+    font-size: 12px;
+}
+
+form button{
+    background-color:  #000f38 !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+    font-size: 15px !important;
+} 
+
+@media  (max-width  : 767px) {
+    form{
+        margin-top: 20px;
+    }
+
+    .contacts .subTitle h3, .contacts p{
+        text-align: center !important;
+    }
+    .contacts .subTitle{
+        column-gap: 10px !important;
+        justify-content: center;
+    }
+    .contacts .subTitle i{
+        margin-bottom: 8px;
+        font-size: 30px;
+    }
+    .contacts ul{
+        margin-top: 20px;
+    }
+}

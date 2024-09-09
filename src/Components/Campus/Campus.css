@@ -1,0 +1,32 @@
+.campus .title h2{
+    font-weight: 700;
+    color:  #000f38;
+}
+.campus .title p{
+    font-weight: 600;
+    color: rgb(17, 17, 91);
+}
+.campus .cardd{
+    height: 250px;
+    border-radius: 20px;
+    color: #fff;
+}
+.campus .btns .btn{
+    background-color:  #000f38;
+    color: #fff;
+    border-radius: 30px ;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    transition: all .5s;
+}
+.campus .btns .btn:hover{
+    transform: scale(1.01);
+}
+
+@media  (max-width  : 767px) {
+    .campus .cardd{
+        margin-bottom: 20px;
+    }
+}

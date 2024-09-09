@@ -1,0 +1,27 @@
+.vedio{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000f38a7;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vedio video{
+    border-radius: 20px;
+    border: solid 3px #f0f8ff;
+    padding: 5px;
+
+    /*  */
+    width: 90%;
+    height: auto;
+    max-width: 900px;
+    /*  */
+}
+
+.vedio.hide{
+    display: none !important;
+}
